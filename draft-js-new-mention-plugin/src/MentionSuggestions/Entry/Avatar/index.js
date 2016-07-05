@@ -9,6 +9,14 @@ const Avatar = ({ mention, theme = {} }) => {
         role="presentation"
       />
     );
+  } else {
+    // const label = mention.get('name').charAt(0) + mention.get('name').charAt(mention.get('name').indexOf(' ') + 1);
+    const label = mention.get('name').charAt(0);
+    return _react2.default.createElement('div', {
+      className: 'avatar-box'
+    }, _react2.default.createElement('span', {
+      className: 'avatar-label'
+    }, label));
   }
 
   return null;

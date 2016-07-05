@@ -19,3 +19,23 @@
   color: #222;
   background: #455261;
 }
+
+.avatar-box {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1em;
+  background: #445868;
+  color: #64ddc5;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-box .avatar-label {
+  display: inline-block;
+  padding: 3px 0 0 6px;
+}
