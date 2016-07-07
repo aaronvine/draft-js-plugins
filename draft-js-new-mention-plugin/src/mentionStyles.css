@@ -1,0 +1,41 @@
+.mention, .mention:visited {
+  color: #575f67;
+  cursor: pointer;
+  display: inline-block;
+  background: #e6f3ff;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.mention:hover, .mention:focus {
+  color: #677584;
+  background: #edf5fd;
+  outline: 0; /* reset for :focus */
+}
+
+.mention:active {
+  color: #222;
+  background: #455261;
+}
+
+.avatar-box {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1em;
+  background: #445868;
+  color: #64ddc5;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-box .avatar-label {
+  display: inline-block;
+  padding: 3px 0 0 6px;
+}
